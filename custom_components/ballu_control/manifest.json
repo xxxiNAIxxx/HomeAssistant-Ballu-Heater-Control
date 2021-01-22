@@ -1,0 +1,11 @@
+{
+    "domain": "ballu_int",
+    "name": "Ballu: Heater Control",
+    "documentation": "localhost",
+    "issue_tracker": "localhost",
+    "dependencies": [],
+    "after_dependencies": [],
+    "requirements": [],
+    "quality_scale": "no score",
+    "config_flow": true
+  }

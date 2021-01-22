@@ -1,0 +1,38 @@
+{
+	"title": "Ballu: Heater Control",
+	"config": {
+		"step": {
+			"auth": {
+				"data": {
+					"ip_address": "IP Address",
+					"username": "Heater port",
+                    "password": "Local port"
+                    
+				},
+				"description": "Enter heater connection settings.\n\nIP Address - IP of you heater\nHeater port - by default 8899\nLocal port - by default 8899"
+			}
+        },
+        "error": {
+			"invalid_auth": "Invalid authentication data",
+			"unknown": "Unknown error",
+            "connection_failed": "Connection failed"
+        }
+	},
+	"options": {
+		"step": {
+			"auth": {
+				"data": {
+					"ip_address": "IP Address",
+					"username": "Heater port",
+					"password": "Local port"
+				},
+				"description": "Enter heater connection settings.\n\nIP Address - IP of you heater\nHeater port - by default 8899\nLocal port - by default 8899"
+			}
+		},
+		"error": {
+			"invalid_auth": "Invalid authentication data",
+			"unknown": "Unknown error",
+			"connection_failed": "Connection failed"
+		}
+	}
+}
